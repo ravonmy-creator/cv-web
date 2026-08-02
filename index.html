@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            color: #333;
+        }
+        .skill-tag {
+            display: inline-block;
+            background: #eee;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        
+        /* --- RABBIT ANIMATION CSS --- */
+        #bugs-bunny-animation {
+            display: none; 
+            position: fixed; 
+            bottom: 0; 
+            right: 40px;
+            z-index: 1000; 
+            /* You may need to increase this width if your combined image is wide */
+            width: 300px;
+            height: 250px;
+        }
+
+        .rabbit {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%; 
+            height: 100%;
+            /* Ensure the name matches your new combined image */
+            background: url('bugs.png') no-repeat bottom right/contain;
+            animation: slideUp 1s ease forwards;
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .speech-bubble {
+            position: absolute;
+            /* Adjust this value if the speech bubble overlaps your new image */
+            bottom: 210px; 
+            left: 50%;
+            transform: translateX(-50%);
+            background: #fff;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 10px 15px;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            width: max-content;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .speech-bubble::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 10px;
+            border-style: solid;
+            border-color: #333 transparent transparent transparent;
+        }
+        
+        .speech-bubble::before {
+            content: '';
+            position: absolute;
+            bottom: -16px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 8px;
+            border-style: solid;
+            border-color: #fff transparent transparent transparent;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="header-section"></header>
+    <section id="skills-section"></section>
+    <section id="experience-section"></section>
+
+    <!-- The Animation Wrapper -->
+    <div id="bugs-bunny-animation">
+        <!-- The Rabbit & Speech Bubble -->
+        <div class="rabbit">
+            <div class="speech-bubble">TIME IS MONEY, DOC!<br>Make an offer!</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

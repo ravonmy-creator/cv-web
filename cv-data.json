@@ -1,0 +1,18 @@
+{
+  "basics": {
+    "name": "Artem",
+    "title": "Senior QA Engineer & Team Lead",
+    "summary": "Senior QA Engineer with 10+ years of experience in software quality assurance, cross-platform testing, and test automation."
+  },
+  "skills": ["Python", "Appium", "Selenium", "Computer Vision", "YOLOv8", "TFLite", "macOS/Linux/Windows Admin"],
+  "experience": [
+    {
+      "role": "Senior QA Engineer / Team Lead",
+      "duration": "2016 - Present",
+      "highlights": [
+        "Develop and maintain mobile and web test automation frameworks.",
+        "Integrate LLMs and computer vision for automated UI element identification."
+      ]
+    }
+  ]
+}
