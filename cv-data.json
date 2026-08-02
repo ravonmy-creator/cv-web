@@ -1,18 +1,86 @@
 {
-  "basics": {
-    "name": "Artem",
-    "title": "Senior QA Engineer & Team Lead",
-    "summary": "Senior QA Engineer with 10+ years of experience in software quality assurance, cross-platform testing, and test automation."
-  },
-  "skills": ["Python", "Appium", "Selenium", "Computer Vision", "YOLOv8", "TFLite", "macOS/Linux/Windows Admin"],
-  "experience": [
-    {
-      "role": "Senior QA Engineer / Team Lead",
-      "duration": "2016 - Present",
-      "highlights": [
-        "Develop and maintain mobile and web test automation frameworks.",
-        "Integrate LLMs and computer vision for automated UI element identification."
-      ]
-    }
-  ]
+    "basics": {
+        "name": "Artem",
+        "title": "Senior QA Lead",
+        "email": "ravonmy+cv@gmail.com",
+        "linkedin": "linkedin.com/in/artem-khmelov-6a2aa763",
+        "location": "Kyiv, Ukraine",
+        "summary": "Senior QA Engineer with 10+ years of experience in software quality assurance and cross-platform testing (macOS, Windows, iOS, and Android).<br><br>Experienced in leading QA teams, mentoring junior testers, and implementing structured testing processes to improve product quality and delivery speed. Strong expertise in regression, usability, and exploratory testing, supported by solid knowledge of test planning and documentation.<br><br>Passionate about building reliable software and optimizing QA workflows. Actively developing mobile automation frameworks using Python and Appium, with a current focus on bridging the gap to autonomous testing using AI-driven solutions, computer vision, and Vision LLMs."
+    },
+    "skills": [
+        "Manual Testing",
+        "Regression Testing",
+        "QA Leadership",
+        "Python & Appium",
+        "TensorFlow",
+        "SQL",
+        "Git",
+        "Computer Vision & Vision LLMs"
+    ],
+    "experience": [
+        {
+            "role": "Senior Software QA Engineer",
+            "company": "Software Mackiev",
+            "duration": "July 2026 - Present",
+            "highlights": [
+                "Comprehensive quality assurance for a modern web application, ensuring seamless frontend and backend performance.",
+                "Design and execute extensive API testing workflows using Postman to validate RESTful endpoints and data integrity.",
+                "Develop and maintain scalable automated UI and API test suites utilizing JavaScript-based automation frameworks.",
+                "Perform backend database validation and execute complex queries using SQL to ensure data consistency across environments."
+            ]
+        },
+        {
+            "role": "Manual QA",
+            "company": "Software Mackiev",
+            "duration": "April 2023 - May 2024",
+            "highlights": [
+                "Performed comprehensive manual testing of mobile and desktop applications.",
+                "Created detailed test documentation, improving traceability and bug reporting efficiency.",
+                "Collaborated with developers to resolve critical issues before release, reducing hotfix needs."
+            ]
+        },
+        {
+            "role": "QA Lead",
+            "company": "Software Mackiev",
+            "duration": "May 2021 - April 2023",
+            "highlights": [
+                "Coordinated QA activities and mentored junior testers.",
+                "Established structured test processes, improving defect detection rate by 25%.",
+                "Drove continuous improvements in test strategy aligned with Agile methodology."
+            ]
+        },
+        {
+            "role": "Software QA Engineer",
+            "company": "Software Mackiev",
+            "duration": "May 2015 - May 2021",
+            "highlights": [
+                "Tested desktop and mobile applications for Mac OS X, iOS, and Android.",
+                "Performed smoke, functional, regression, exploratory, and GUI testing.",
+                "Developed test reports and trackers, enhancing project visibility for stakeholders."
+            ]
+        },
+        {
+            "role": "System Administrator / Computer Teacher",
+            "company": "School 119",
+            "duration": "August 2006 - June 2016",
+            "highlights": [
+                "Maintained IT infrastructure and supported staff with technical issues.",
+                "Taught computer science and developed educational programs for students."
+            ]
+        }
+    ],
+    "certificates": [
+        "Python 3 Tutorial course",
+        "DeepLearning.AI TensorFlow Developer Specialization",
+        "SQL Essential",
+        "Google AI Professional Certificate",
+        "Git для розподіленої розробки програмного забезпечення"
+    ],
+    "education": [
+        {
+            "institution": "National Pedagogical Dragomanov University",
+            "degree": "Master's degree, Information Technology, Physics, Astronomy",
+            "duration": "2001 - 2006"
+        }
+    ]
 }

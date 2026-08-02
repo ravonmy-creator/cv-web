@@ -1,0 +1,148 @@
+/* --- GLOBAL STYLES --- */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+h1, h2, h3, h4 {
+    color: #1a365d;
+    margin-top: 0;
+}
+
+h3 {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+ul {
+    padding-left: 20px;
+    color: #4a5568;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* --- HEADER SECTION --- */
+#header-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#header-section p {
+    text-align: left;
+    color: #4a5568;
+    font-size: 1.05em;
+    margin-top: 20px;
+}
+
+/* --- SKILLS SECTION --- */
+.skill-tag {
+    display: inline-block;
+    background: #ebf8ff;
+    color: #2b6cb0;
+    padding: 6px 14px;
+    margin: 6px 6px 6px 0;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    border: 1px solid #bee3f8;
+}
+
+/* --- EXPERIENCE SECTION --- */
+.job {
+    background: #f8fafc;
+    border-left: 4px solid #3182ce;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 0 8px 8px 0;
+}
+
+.job h4 {
+    margin-bottom: 4px;
+}
+
+.job p {
+    margin-top: 0;
+    color: #718096;
+    font-size: 0.9em;
+}
+
+/* --- RABBIT ANIMATION CSS --- */
+#bugs-bunny-animation {
+    display: none; 
+    position: fixed; 
+    bottom: 0; 
+    right: 40px;
+    z-index: 1000; 
+    width: 300px;
+    height: 250px;
+}
+
+.rabbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%; 
+    height: 100%;
+    background: url('bugs.png') no-repeat bottom right/contain;
+    animation: slideUp 1s ease forwards;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.speech-bubble {
+    position: absolute;
+    bottom: 210px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 2px solid #1a365d;
+    color: #1a365d;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    width: max-content;
+    text-align: center;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.15);
+}
+
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #1a365d transparent transparent transparent;
+}
+
+.speech-bubble::before {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 8px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+    z-index: 1;
+}
