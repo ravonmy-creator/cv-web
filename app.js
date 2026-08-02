@@ -84,7 +84,7 @@ function renderEducation(education) {
 
 // --- IDLE TIMER LOGIC ---
 let idleTimer;
-const idleTimeLimit = 2000; // 2 seconds
+const idleTimeLimit = 3000; // 3 seconds
 
 function showBugsBunny() {
     const bugsContainer = document.getElementById('bugs-bunny-animation');
